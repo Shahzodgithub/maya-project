@@ -1,81 +1,80 @@
-@import './fonts';
+@import "./fonts";
 
-body{
-    font-family: 'Futura PT Cond';
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden !important;
+body {
+  font-family: "Futura PT Cond";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
 }
 
 /* ----HEADER-START---- */
 
-header{
-    position: relative;
-    background-color: rgba(254, 220, 212,0.4);
-    width: 100%;
-    height: 935px;
+header {
+  position: relative;
+  background-color: rgba(254, 220, 212, 0.4);
+  width: 100%;
+  height: 935px;
 }
 
-header .navbar{
-    display: flex;
-    justify-content: space-around;
-    padding: 41px 0px 0 40px;
+header .navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 41px 0px 0 40px;
 }
 
-header .navbar nav{
-    margin-left: 232px;
+header .navbar nav {
+  margin-left: 232px;
 }
 
-
-header .navbar nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type:none;
-    align-items: center;
+header .navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
 }
 
-header .navbar nav ul li{
-    margin-right: 67px;
+header .navbar nav ul li {
+  margin-right: 67px;
 }
 
-header .navbar nav ul li:last-child{
-    margin-right: 0px;
+header .navbar nav ul li:last-child {
+  margin-right: 0px;
 }
 
-header .navbar nav ul li a{
-    text-transform: uppercase;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    color: black;
+header .navbar nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
 }
 
-header .navbar nav ul li a.language{
-    display: flex;
-    align-items: center;
+header .navbar nav ul li a.language {
+  display: flex;
+  align-items: center;
 }
-.double-border-btn{
-    position: relative;
-    width: 181.35px;
-    height: 63.87px;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: 0.93px solid #D4C8C7;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
+.double-border-btn {
+  position: relative;
+  width: 181.35px;
+  height: 63.87px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 0.93px solid #d4c8c7;
+  box-sizing: border-box;
+  cursor: pointer;
+}
 
 .double-border-btn:focus {
   outline: 0;
 }
 .double-border-btn:after {
-  content: '';
+  content: "";
   position: absolute;
-  border: 0.93px solid #D4C8C7;
+  border: 0.93px solid #d4c8c7;
   bottom: 4px;
   left: 4px;
   width: calc(100% - 1px);
@@ -87,638 +86,625 @@ header .navbar nav ul li a.language{
   left: 0px;
 }
 
-header .header-info{
-
-color: #000000;
-    margin-top: 184px;
-    margin-left: 139px;
-    max-width: 764px;
+header .header-info {
+  color: #000000;
+  margin-top: 184px;
+  margin-left: 139px;
+  max-width: 764px;
 }
 
-header .header-info h1{
-    position: relative;
-    font-family: 'Blacker Pro Display Condensed Trial';
-    margin: 0;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 110px;
-    z-index: 1;
+header .header-info h1 {
+  position: relative;
+  font-family: "Blacker Pro Display Condensed Trial";
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 110px;
+  z-index: 1;
 }
 
-header .header-info h3{
-    font-family: 'Blacker Pro Display Condensed Trial';
-    margin: 0;
-    margin-top: 32px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
+header .header-info h3 {
+  font-family: "Blacker Pro Display Condensed Trial";
+  margin: 0;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
 }
-header .header-info p{
-    font-weight: 300;
-    font-size: 24px;
-}
-
-.btn-learn-more{
-    width: 243.35px;
-    height: 63.87px;
-    margin-left: 7px;
+header .header-info p {
+  font-weight: 300;
+  font-size: 24px;
 }
 
-.header-img{
-    max-width: 710px;
-    position: absolute;
-    left: 57.91%;
-    top: 159px;
-    bottom: 71px;
-    z-index: 0;
+.btn-learn-more {
+  width: 243.35px;
+  height: 63.87px;
+  margin-left: 7px;
+}
+
+.header-img {
+  max-width: 710px;
+  position: absolute;
+  left: 57.91%;
+  top: 159px;
+  bottom: 71px;
+  z-index: 0;
 }
 
 /* ----HEADER-END---- */
 
-
 /* ----MAIN-START---- */
-main{
-    width: 100%;
-    position: relative;
+main {
+  width: 100%;
+  position: relative;
 }
 
-main section.makeup-info-section{
-    width: 100%;
-    height: 711px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+main section.makeup-info-section {
+  width: 100%;
+  height: 711px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-main section.makeup-info-section .brush-img{
-    position: absolute;
-    left: 0;
-    z-index: -1;
+main section.makeup-info-section .brush-img {
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
 
-main section.makeup-info-section .brush-img img{
-    width: 100%;
+main section.makeup-info-section .brush-img img {
+  width: 100%;
 }
 
-main section.makeup-info-section .makeup-logo{
-    max-width: 765.63px;
-    margin-top: 173px;
+main section.makeup-info-section .makeup-logo {
+  max-width: 765.63px;
+  margin-top: 173px;
 }
 
-main section.makeup-info-section .makeup-logo img{
-    display: block;
-    margin: auto;
-    margin-bottom: 63px;
+main section.makeup-info-section .makeup-logo img {
+  display: block;
+  margin: auto;
+  margin-bottom: 63px;
 }
 
-main section.makeup-info-section .makeup-logo .logo-info{
-    display: block;
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-size: 30px;
-    margin: auto;
-    text-align: center;
+main section.makeup-info-section .makeup-logo .logo-info {
+  display: block;
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
 }
 
-
-main section.makeup-info-section .makeup-info-box{
-    margin-top: 96px;
-    margin-bottom: 111px;
-    width: 1131px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+main section.makeup-info-section .makeup-info-box {
+  margin-top: 96px;
+  margin-bottom: 111px;
+  width: 1131px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-main section.makeup-info-section .makeup-info-box .makeup-info-box-items{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 325px;
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-weight: 400;
-    font-size: 23px;
+main section.makeup-info-section .makeup-info-box .makeup-info-box-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 325px;
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-weight: 400;
+  font-size: 23px;
 }
 
-main section.makeup-info-section .makeup-info-box .makeup-info-box-items h3{
-    margin: 0;
-    margin-bottom: 14px;
-    text-align: center;
+main section.makeup-info-section .makeup-info-box .makeup-info-box-items h3 {
+  margin: 0;
+  margin-bottom: 14px;
+  text-align: center;
 }
 
-main section.makeup-info-section .makeup-info-box .makeup-info-box-items p{
-    font-family: 'Futura PT Cond';
-    font-size: 400;
-    font-size: 16px;
-    margin: 0;
-    text-align: center;
+main section.makeup-info-section .makeup-info-box .makeup-info-box-items p {
+  font-family: "Futura PT Cond";
+  font-size: 400;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
 }
 
-.makeup-artist{
-    width: 100%;
-    position: relative;
+.makeup-artist {
+  width: 100%;
+  position: relative;
 }
 
-.makeup-artist-info{
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    top: 240px;
-    text-align: center;
+.makeup-artist-info {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 240px;
+  text-align: center;
 }
 
-.makeup-artist-info p{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    color: #FEDCD4;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-
+.makeup-artist-info p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fedcd4;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
-.makeup-artist-info h3{
-    margin-top: 18px;
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-style:rgb(99, 74, 68);
-    font-weight: 900;
-    font-size: 59px;
-    color: white;
+.makeup-artist-info h3 {
+  margin-top: 18px;
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-style: rgb(99, 74, 68);
+  font-weight: 900;
+  font-size: 59px;
+  color: white;
 }
-.makeup-artist-info h4{
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-style: italic;
-    font-weight: 300;
-    font-size: 50px;
-    color: #FFFFFF;
-    margin-top: 0;
-    margin-bottom: 113px;
-}
-
-
-.makeup-artist-img1{
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    z-index: -1;
+.makeup-artist-info h4 {
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 113px;
 }
 
-.makeup-artist-img2{
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -2;
+.makeup-artist-img1 {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: -1;
 }
 
-.makeup-btn{
-    width: 369px;
-    height: 54px;
-    background-color: white !important;
+.makeup-artist-img2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -2;
 }
 
-section.portfolio{
-    position: relative;
-    top: 1000px;
-    width: 100%;
-
+.makeup-btn {
+  width: 369px;
+  height: 54px;
+  background-color: white !important;
 }
 
-section.portfolio h2{
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 0;
+section.portfolio {
+  position: relative;
+  top: 1000px;
+  width: 100%;
 }
 
-.portfolio-brush{
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
+section.portfolio h2 {
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
 }
 
-.tutorials{
-    position: absolute;
+.portfolio-brush {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
 
-.portfolio-img1{
-    transform: translateX(-50%);
-    left: 50%;
-    top: 13%;
-    z-index: 2;
-}
-.portfolio-img2{
-    right: 0;
-    top: 30%;
-    z-index: 1;
+.tutorials {
+  position: absolute;
 }
 
-.portfolio-img3{
-    width: 540px;
-    left: 10%;
-    top: 48%;
-    z-index: 1;
+.portfolio-img1 {
+  transform: translateX(-50%);
+  left: 50%;
+  top: 13%;
+  z-index: 2;
 }
-.portfolio-text{
-    width: 447px;
-    right: 12%;
-    top: 49%;
-    z-index: 1;
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 49px;
-    align-items: center;
-    color: #282828;
+.portfolio-img2 {
+  right: 0;
+  top: 30%;
+  z-index: 1;
 }
 
-.portfolio-img4{
-    width: 640px;
-    right: 12%;
-    top: 63%;
-    z-index: 2;
+.portfolio-img3 {
+  width: 540px;
+  left: 10%;
+  top: 48%;
+  z-index: 1;
+}
+.portfolio-text {
+  width: 447px;
+  right: 12%;
+  top: 49%;
+  z-index: 1;
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 49px;
+  align-items: center;
+  color: #282828;
 }
 
-section.masterclass{
-    
-    margin-top: 1132px;
-    padding: 0 156px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.portfolio-img4 {
+  width: 640px;
+  right: 12%;
+  top: 63%;
+  z-index: 2;
 }
 
-section.masterclass .masterclass-schedule{
-    max-width: 378px;
-    display: flex;
-    flex-direction: column;
-    color: #282828;
+section.masterclass {
+  margin-top: 1132px;
+  padding: 0 156px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.masterclass-schedule h3{
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    margin-top: 0;
-    margin-bottom: 0;
+section.masterclass .masterclass-schedule {
+  max-width: 378px;
+  display: flex;
+  flex-direction: column;
+  color: #282828;
 }
 
-.masterclass-schedule p{
-    font-family: 'Futura PT';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 34px;
-text-align: justify;
+.masterclass-schedule h3 {
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.masterclass-makeup{
-    font-family: 'Blacker Pro Text Condensed Trial';
-    max-width: 670px;
-    color: #282828;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.masterclass-schedule p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: justify;
 }
 
-.masterclass-makeup p{
-    font-size: 22px;
-    opacity: 0.7;
-    margin-bottom: 0;
+.masterclass-makeup {
+  font-family: "Blacker Pro Text Condensed Trial";
+  max-width: 670px;
+  color: #282828;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.masterclass-makeup h4{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    margin: 0;
-    margin-bottom: 21px;
-    margin-top: 21px;
+.masterclass-makeup p {
+  font-size: 22px;
+  opacity: 0.7;
+  margin-bottom: 0;
 }
 
-.masterclass-makeup span{
-    display: block;
-    font-family: 'Futura PT';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 36px;
-    text-align: justify;
+.masterclass-makeup h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 21px;
+  margin-top: 21px;
 }
 
-.masterclass-watch-video-btn{
-    width: 236px;
-    height: 48px;
-    display: block;
-    margin: 31px 0 51px 0;
-    background: transparent;
-    border: 1px solid #D4C8C7;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-
+.masterclass-makeup span {
+  display: block;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: justify;
 }
 
-.masterclass-watch-video-btn img{
-    margin-left: 20px;
+.masterclass-watch-video-btn {
+  width: 236px;
+  height: 48px;
+  display: block;
+  margin: 31px 0 51px 0;
+  background: transparent;
+  border: 1px solid #d4c8c7;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
-.masterclass-allvideo-btn{
-    margin-top: 33px;
-    width: 242px;
-    height: 50px;
-    
+.masterclass-watch-video-btn img {
+  margin-left: 20px;
 }
 
-
-section.up-to-date-form{
-    position: relative;
-    margin-top: 132px;
-}
-section.up-to-date-form .cover-img{
-    position: absolute;
-    width: 100%;
-    z-index: -1;
+.masterclass-allvideo-btn {
+  margin-top: 33px;
+  width: 242px;
+  height: 50px;
 }
 
-.wrapper-uptodate{
-    width: 552px;
-    padding: 0 156px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
+section.up-to-date-form {
+  position: relative;
+  margin-top: 132px;
+}
+section.up-to-date-form .cover-img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
-.signup-to-masterclass{
-    padding-top: 100px;
+.wrapper-uptodate {
+  width: 552px;
+  padding: 0 156px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.signup-to-masterclass .double-border-btn{
-    display: block;
-    width: 243px;
-    height: 63px;
-    margin-top: 56px;
+.signup-to-masterclass {
+  padding-top: 100px;
 }
 
-.signup-to-masterclass span{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    letter-spacing: 0.095em;
-    text-transform: uppercase;
-
+.signup-to-masterclass .double-border-btn {
+  display: block;
+  width: 243px;
+  height: 63px;
+  margin-top: 56px;
 }
 
-.signup-to-masterclass-arrows{
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+.signup-to-masterclass span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.095em;
+  text-transform: uppercase;
 }
 
-.signup-to-masterclass-arrows li:first-child{
-    margin-right: 31px;
+.signup-to-masterclass-arrows {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-section.up-to-date-form p{
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 49px;
-    color: #282828;
-    text-align: justify;
+.signup-to-masterclass-arrows li:first-child {
+  margin-right: 31px;
 }
 
-.up-to-date-form-img1,.up-to-date-form-img2{
-    position: absolute;
-
+section.up-to-date-form p {
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 49px;
+  color: #282828;
+  text-align: justify;
 }
 
-.up-to-date-form-img1 img{
-    width: 100%;
+.up-to-date-form-img1,
+.up-to-date-form-img2 {
+  position: absolute;
 }
 
-.up-to-date-form-img2 img{
-    width: 100%;
+.up-to-date-form-img1 img {
+  width: 100%;
 }
 
-.up-to-date-form-img2{
-    width: 900px;
-   bottom: -193%;
-    left: 0; 
+.up-to-date-form-img2 img {
+  width: 100%;
 }
 
-.up-to-date-form-img1{
-    width: 497px;
-    top: -15%;
-    right: 10%;
+.up-to-date-form-img2 {
+  width: 900px;
+  bottom: -193%;
+  left: 0;
 }
 
-.up-to-date-form-signup{
-    box-sizing: border-box;
-    padding: 176px 231px 0 138px;
-    position: absolute;
-    width: 826px;
-    height: 738px;
-    background: #FFFFFF;
-    z-index: 1;
-    right: 0;
-    bottom: -193%;
+.up-to-date-form-img1 {
+  width: 497px;
+  top: -15%;
+  right: 10%;
 }
 
-.up-to-date-form-signup form h4{
-    margin: 0;
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 60px;
+.up-to-date-form-signup {
+  box-sizing: border-box;
+  padding: 176px 231px 0 138px;
+  position: absolute;
+  width: 826px;
+  height: 738px;
+  background: #ffffff;
+  z-index: 1;
+  right: 0;
+  bottom: -193%;
 }
 
-.up-to-date-form-signup form p{
-    font-family: 'Futura PT';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 34px;
-    margin-top: 40px;
-    margin-bottom: 49px;
+.up-to-date-form-signup form h4 {
+  margin: 0;
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
 }
 
-.up-to-date-form-signup form label{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 22px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
+.up-to-date-form-signup form p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  margin-top: 40px;
+  margin-bottom: 49px;
 }
 
-
-
-.up-to-date-form-signup form input{
-    font-family: 'Futura PT';
-    font-size: 18px;
-    width: 457px;
-    height: 53px;
-    background: #FFFFFF;
-    border: 0.8px solid #282828;
-    box-sizing: border-box;
-    margin-bottom: 24px;
+.up-to-date-form-signup form label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
-input.up-to-date-form-signup-submit{
-    background: #282828 !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    text-align: center;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    cursor: pointer;
+.up-to-date-form-signup form input {
+  font-family: "Futura PT";
+  font-size: 18px;
+  width: 457px;
+  height: 53px;
+  background: #ffffff;
+  border: 0.8px solid #282828;
+  box-sizing: border-box;
+  margin-bottom: 24px;
 }
 
-section.slider-bottom{
-    width: 100%;
-    position: relative;
-    margin-top: 1232px;
-    display: flex;
-    flex-direction: column;
+input.up-to-date-form-signup-submit {
+  background: #282828 !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section.slider-bottom {
+  width: 100%;
+  position: relative;
+  margin-top: 1232px;
+  display: flex;
+  flex-direction: column;
 }
 
 section.slider-bottom .contact-with-us {
-    padding: 0 158px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 0 158px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.contact-with-us h4{
-    font-family: 'Blacker Pro Display Condensed Trial';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    margin-bottom: 0;
-    margin-bottom: 16px;
+.contact-with-us h4 {
+  font-family: "Blacker Pro Display Condensed Trial";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
-.contact-with-us p{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    margin-bottom: 37px;
-    margin-top: 0;
+.contact-with-us p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 37px;
+  margin-top: 0;
 }
 
-.slider-bottom-slides ul{
-    position: relative;
-    right: -10%;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.slider-bottom-slides ul {
+  position: relative;
+  right: -10%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.slider-bottom-slides ul li{
-    width: 440px;
-    height: 440px;
+.slider-bottom-slides ul li {
+  width: 440px;
+  height: 440px;
 }
 
-.slider-bottom-slides ul li img{
-    width: 100%;
-    height: 100%;
+.slider-bottom-slides ul li img {
+  width: 100%;
+  height: 100%;
 }
 
-ul.slider-bottom-arrows{
-    width: 142px;
+ul.slider-bottom-arrows {
+  width: 142px;
 }
 
 /* ----MAIN-END---- */
 
-
 /* ----FOOTER-START---- */
 
-footer{
-    background-color: rgba(254, 220, 212,0.4);
-    position: relative;
-    top: 140px;
+footer {
+  background-color: rgba(254, 220, 212, 0.4);
+  position: relative;
+  top: 140px;
 }
 
-.footer-wrapper{
-    max-width: 1000px;
-    margin: auto;
+.footer-wrapper {
+  max-width: 1000px;
+  margin: auto;
 }
 
 footer ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
-footer ul li a{
-    font-family: 'Lato';
-    font-size: 14px;
-    color: #282828;
-    text-decoration: none;
-}
-
-footer .footer-link-list ul li{
-    text-transform: uppercase;
-    margin-right: 44px;
+footer ul li a {
+  font-family: "Lato";
+  font-size: 14px;
+  color: #282828;
+  text-decoration: none;
 }
 
-footer .footer-link-list ul li:last-child{
-    margin-right: 0;
+footer .footer-link-list ul li {
+  text-transform: uppercase;
+  margin-right: 44px;
 }
 
-footer .footer-logo{
-    width: 87px;
-    height: 91px;
+footer .footer-link-list ul li:last-child {
+  margin-right: 0;
 }
 
-.footer-link, .footer-messengers{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.date-credits{
-    padding: 0;
+footer .footer-logo {
+  width: 87px;
+  height: 91px;
 }
 
-.date-credits li:last-child{
-    margin-left: 23px;
+.footer-link,
+.footer-messengers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.date-credits li{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-}
-
-.footer-messengers-list ul li{
-    margin-right: 16px;
-    color: #282828;
-    width: 40px;
-    height: 40px;
+.date-credits {
+  padding: 0;
 }
 
-.footer-messengers-list ul li:last-child{
-    margin-right: 0;
+.date-credits li:last-child {
+  margin-left: 23px;
+}
+.date-credits li {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer-messengers-list ul li {
+  margin-right: 16px;
+  color: #282828;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-messengers-list ul li:last-child {
+  margin-right: 0;
 }
 
 /* ----FOOTER-END---- */
